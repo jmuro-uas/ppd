@@ -305,7 +305,7 @@ CREATE TABLE public.localidades (
     "VPH_SINLTC" INTEGER,
     "VPH_SINCINT" INTEGER,
     "VPH_SINTIC" INTEGER,
-    "TAMLOC" INTEGER
+    "TAMLOC" TEXT
 );
 -- \copy tabla FROM PROGRAM 'tail -n +6 archivo.csv' WITH (FORMAT csv)
 -- Carga eficiente del CSV desde el equipo cliente donde se ejecuta psql.
