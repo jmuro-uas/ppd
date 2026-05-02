@@ -72,7 +72,7 @@ CREATE TABLE public.localidades (
     "P_60YMAS" INTEGER,
     "P_60YMAS_F" INTEGER,
     "P_60YMAS_M" INTEGER,
-    "REL_H_M" INTEGER,
+    "REL_H_M" REAL,
     "POB0_14" INTEGER,
     "POB15_64" INTEGER,
     "POB65_MAS" INTEGER,
