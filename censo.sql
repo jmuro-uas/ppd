@@ -310,6 +310,6 @@ CREATE TABLE public.localidades (
 -- \copy tabla FROM PROGRAM 'tail -n +6 archivo.csv' WITH (FORMAT csv)
 -- Carga eficiente del CSV desde el equipo cliente donde se ejecuta psql.
 -- NOTA: \copy usa la ruta local del cliente, no la ruta del servidor PostgreSQL.
-\copy public.localidades FROM PROGRAM 'tail -n +6 ./iter_00_cpv2020/conjunto_de_datos/conjunto_de_datos_iter_00CSV20.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', NULL '');
+\copy public.localidades FROM PROGRAM 'tail -n +1 ./iter_00_cpv2020/conjunto_de_datos/conjunto_de_datos_iter_00CSV20.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', NULL '');
 -- Verificación rápida
 SELECT COUNT(*) AS total_registros FROM public.localidades;
