@@ -20,7 +20,7 @@ WHERE NOT EXISTS (
 DROP TABLE IF EXISTS public.localidades;
 
 CREATE TABLE public.localidades (
-    "ENTIDAD" SMALINT,
+    "ENTIDAD" SMALLINT,
     "NOM_ENT" TEXT,
     "MUN" SMALLINT,
     "NOM_MUN" TEXT,
