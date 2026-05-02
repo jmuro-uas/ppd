@@ -1,1 +1,2 @@
 https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/iter/iter_00_cpv2020_csv.zip
+https://www.inegi.org.mx/contenidos/descargadenue/MGdescarga/MGN2025/25/2025_1_25_ENT.zip
