@@ -1,4 +1,5 @@
 Anotaciones:  
+Para sincronizar : git stash y git pull
 En el directorio ppd:  
 
 **1.Ejecutar postgresql en un contenedor :**  
