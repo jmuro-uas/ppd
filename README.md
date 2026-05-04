@@ -1,7 +1,7 @@
 Anotaciones:  
+Trabaja en el directorio ppd: 
 Para sincronizar : git stash y git pull
-En el directorio ppd:  
-
+ 
 **1.Ejecutar postgresql en un contenedor :**  
 sudo docker compose up -d
 
@@ -18,4 +18,4 @@ psql -h $(hostname -I | awk '{print $1}') -p 5432 -U admin -d pruebadb
 \i censo.sql
 
 
-
+**Nota: Esta versión de northwind en PG, es de Pascal Thomet https://github.com/pthom/northwind_psql**
