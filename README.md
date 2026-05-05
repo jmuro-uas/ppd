@@ -1,4 +1,4 @@
-Anotaciones:  
+Anotaciones:   
 Trabaja en el directorio ppd: 
 Para sincronizar : git stash y git pull
  
