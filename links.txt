@@ -2,4 +2,4 @@ https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/iter/iter_
 https://www.inegi.org.mx/contenidos/descargadenue/MGdescarga/MGN2025/25/2025_1_25_ENT.zip
 https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
 curl -X POST "http://transparencia.uasnet.mx/2023/?seccion=2&subseccion=11" -d "unidad=&select_uo=170&busqueda_por_uo="
-
+https://www.economia.gob.mx/datamexico/es/profile/institution/universidad-autonoma-de-sinaloa#matricula-distribucion
